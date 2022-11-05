@@ -1,0 +1,172 @@
+body{
+    background: linear-gradient(65deg,rgb(139, 231, 41),rgb(43, 173, 216));
+    display: flex;
+    flex-direction: column;
+}
+
+.clear{
+    align-self: center;
+}
+
+#sclear{
+        border: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-image: linear-gradient(to right,rgb(41, 79, 231),rgb(184, 43, 216));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+        transition: 0.2s;
+        margin-bottom: 0.5rem;
+}
+
+#sclear:hover {
+    opacity: 0.8;
+}
+
+#sclear:active {
+    opacity: 0.6;
+}
+
+.inputtext{
+    align-self: center;
+}
+
+#textarea{
+    border: 0.5rem solid rgb(231, 209, 41);
+    background-color: var(--darker);
+    padding: 2rem;
+    color: white;
+    font-size: 1.25rem;
+    width: 40rem;
+    height: 6rem;
+}
+
+#textarea::placeholder{
+    color: grey;
+}
+
+.container{
+    border: 0.5rem solid rgb(134, 6, 27);
+    align-self: center;
+    background-image: linear-gradient(to right,rgb(41, 212, 231),rgb(43, 216, 129));
+}
+
+#firstrow{
+    display:flex;
+
+}
+
+#secondrow{
+    display: flex;
+}
+
+#thirdrow{
+    display: flex;
+}
+
+#fourthrow{
+    display: flex;
+}
+
+#fifthrow{
+    display: flex;
+}
+
+li{
+    border: 1px solid rgb(181, 10, 243);
+    border-radius: 0.5rem;
+    width:3rem;
+    height: 2.5rem;
+    text-align: left;
+    align-self: left;
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: white;
+    background-image: linear-gradient(to right,rgb(181,41,231),rgb(216,43,43));
+    /*-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+li:hover {
+    opacity: 0.8;
+}
+
+li:active {
+    opacity: 0.6;
+}
+
+.backspace{
+    border: 1px solid rgb(181, 10, 243);
+    width:5rem;
+    height: 2.5rem;
+    text-align: center;
+    align-self: center;
+}
+
+.tab{
+    border: 1px solid rgb(181, 10, 243);
+    width:4.5rem;
+    height: 2.5rem;
+}
+.tab1{
+    display: block;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+}
+
+
+
+.slash{
+    border: 1px solid rgb(181, 10, 243)k;
+    width:3.5rem;
+    height: 2.5rem;
+}
+
+.caps{
+    border: 1px solid rgb(181, 10, 243);
+    width:6rem;
+    height: 2.5rem;
+}
+
+.enter{
+    border: 1px solid rgb(181, 10, 243);
+    width:5.5rem;
+    height: 2.5rem;
+    text-align: right;
+    align-self: right;
+}
+
+.shift{
+    border: 1px solid rgb(181, 10, 243);
+    width:7.5rem;
+    height: 2.5rem;
+}
+
+.shift1{
+    border: 1px solid rgb(181, 10, 243)ck;
+    width:7.5rem;
+    height: 2.5rem;
+    text-align: right;
+    align-self: right;
+}
+
+.ctrl{
+    border: 1px solid rgb(181, 10, 243);
+    width:4rem;
+    height: 2.5rem;
+}
+
+.space{
+    border: 1px solid rgb(181, 10, 243);
+    width:14.5rem;
+    height: 2.5rem;
+}
+
+.keys{
+    align-self: center;
+    margin-top: 2.3rem;
+}

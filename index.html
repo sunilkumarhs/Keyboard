@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="clear">
+        <button type="button" id="sclear" onclick="sclear()">Display Srceen</button>
+    </div>
+    <div class="inputtext">
+        <textarea id="textarea" 
+                  placeholder="Please press the keys!!"></textarea>
+    </div>
+    <div class="keys">
+    <div class="container"> 
+        <ul type="none" id="firstrow">
+            <li id="l1"><span class="tab1">~ `</span></li>&nbsp;&nbsp;
+            <li id="l2"><span class="tab1">1 !</span></li>&nbsp;&nbsp;
+            <li id="l3"><span class="tab1">2 #</span></li>&nbsp;&nbsp;
+            <li id="l4"><span class="tab1">3 $</span></li>&nbsp;&nbsp;
+            <li id="l5"><span class="tab1">4 $</span></li>&nbsp;&nbsp;
+            <li id="l6"><span class="tab1">5 %</span></li>&nbsp;&nbsp;
+            <li id="l7"><span class="tab1">6 ^</span></li>&nbsp;&nbsp;
+            <li id="l8"><span class="tab1">7 &</span></li>&nbsp;&nbsp;
+            <li id="l9"><span class="tab1">8 *</span></li>&nbsp;&nbsp;
+            <li id="l10"><span class="tab1">9 (</span></li>&nbsp;&nbsp;
+            <li id="l11"><span class="tab1">0 )</span></li>&nbsp;&nbsp;
+            <li id="l12"><span class="tab1">- _</span></li>&nbsp;&nbsp;
+            <li id="l13"><span class="tab1">+ =</span></li>&nbsp;&nbsp;
+            <li  id="l14" class="backspace"><span class="tab1">Backspace</span></li>&nbsp;&nbsp;
+        </ul>
+        <ul type="none" id="secondrow">
+            <li id="ll1" class="tab"><span class="tab1">Tab</span></li>&nbsp;&nbsp;
+            <li id="ll2"><span class="tab1">Q</span></li>&nbsp;&nbsp;
+            <li id="ll3"><span class="tab1">W</span></li>&nbsp;&nbsp;
+            <li id="ll4"><span class="tab1">E</span></li>&nbsp;&nbsp;
+            <li id="ll5"><span class="tab1">R</span></li>&nbsp;&nbsp;
+            <li id="ll6"><span class="tab1">T</span></li>&nbsp;&nbsp;
+            <li id="ll7"><span class="tab1">Y</span></li>&nbsp;&nbsp;
+            <li id="ll8"><span class="tab1">U</span></li>&nbsp;&nbsp;
+            <li id="ll9"><span class="tab1">I</span></li>&nbsp;&nbsp;
+            <li id="ll10"><span class="tab1">O</span></li>&nbsp;&nbsp;
+            <li id="ll11"><span class="tab1">P</span></li>&nbsp;&nbsp;
+            <li id="ll12"><span class="tab1">{ [</span></li>&nbsp;&nbsp;
+            <li id="ll13"><span class="tab1">} ]</span></li>&nbsp;&nbsp;
+            <li  id="ll14" class="slash"><span class="tab1">| \</span></li>&nbsp;&nbsp;
+        </ul>
+        <ul type="none" id="thirdrow">
+            <li id="lll1" class="caps"><span class="tab1">CapsLk</li>&nbsp;&nbsp;
+            <li id="lll2"><span class="tab1">A</span></li>&nbsp;&nbsp;
+            <li id="lll3"><span class="tab1">S</span></li>&nbsp;&nbsp;
+            <li id="lll4"><span class="tab1">D</span></li>&nbsp;&nbsp;
+            <li id="lll5"><span class="tab1">F</span></li>&nbsp;&nbsp;
+            <li id="lll6"><span class="tab1">G</span></li>&nbsp;&nbsp;
+            <li id="lll7"><span class="tab1">H</span></li>&nbsp;&nbsp;
+            <li id="lll8"><span class="tab1">J</span></li>&nbsp;&nbsp;
+            <li id="lll9"><span class="tab1">K</span></li>&nbsp;&nbsp;
+            <li id="lll10"><span class="tab1">L</span></li>&nbsp;&nbsp;
+            <li id="lll11"><span class="tab1">: ;</span></li>&nbsp;&nbsp;
+            <li id="lll12"><span class="tab1">" '</span></li>&nbsp;&nbsp;
+            <li id="lll13" class="enter"><span class="tab1">Enter</span></li>&nbsp;&nbsp;
+        </ul>
+        <ul type="none" id="fourthrow">
+            <li id="llll1" class="shift"><span class="tab1">Shift</span></li>&nbsp;&nbsp;
+            <li id="llll2"><span class="tab1">Z</span></li>&nbsp;&nbsp;
+            <li id="llll3"><span class="tab1">X</span></li>&nbsp;&nbsp;
+            <li id="llll4"><span class="tab1">C</span></li>&nbsp;&nbsp;
+            <li id="llll5"><span class="tab1">V</span></li>&nbsp;&nbsp;
+            <li id="llll6"><span class="tab1">B</span></li>&nbsp;&nbsp;
+            <li id="llll7"><span class="tab1">N</span></li>&nbsp;&nbsp;
+            <li id="llll8"><span class="tab1">M</span></li>&nbsp;&nbsp;
+            <li id="llll9"><span class="tab1">< ,</span></li>&nbsp;&nbsp;
+            <li id="llll10"><span class="tab1">> .</span></li>&nbsp;&nbsp;
+            <li id="llll11"><span class="tab1">? /</span></li>&nbsp;&nbsp;
+            <li id="llll12" class="shift1"><span class="tab1">Shift</span></li>&nbsp;&nbsp;
+        </ul>
+        <ul type="none" id="fifthrow">
+            <li id="lllll1" class="ctrl"><span class="tab1">Ctrl</span></li>&nbsp;&nbsp;
+            <li id="lllll2"><span class="tab1">Fn</span></li>&nbsp;&nbsp;
+            <li id="lllll3"><span class="tab1">Win</span></li>&nbsp;&nbsp;
+            <li id="lllll4"><span class="tab1">Alt</span></li>&nbsp;&nbsp;
+            <li id="lllll5" class="space"><span class="tab1">Space</span></li>&nbsp;&nbsp;
+            <li id="lllll6"><span class="tab1">Alt</span></li>&nbsp;&nbsp;
+            <li id="lllll7"><span class="tab1">Ctrl</span></li>&nbsp;&nbsp;
+            <li id="lllll8"><span class="tab1">Home</span></li>&nbsp;&nbsp;
+            <li id="lllll9"><span class="tab1">PgUp</span></li>&nbsp;&nbsp;
+            <li id="lllll10"><span class="tab1">PgDn</span></li>&nbsp;&nbsp;
+            <li id="lllll11"><span class="tab1">End</span></li>&nbsp;&nbsp;
+        </ul>
+    </div>
+    </div>
+</body>
+<script src="keyjs.js"></script>
+</html>
